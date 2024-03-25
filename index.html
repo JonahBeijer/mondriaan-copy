@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kopie van Mondriaan</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 80px;
+            height: 80px;
+            border: 4px solid #000000;
+        }
+
+        .yellow {
+            background: #ffed52;
+        }
+
+        .red {
+            background: #ff5a34;
+        }
+
+        .black {
+            background: #000000;
+        }
+
+        .blue {
+            background: #014586;
+        }
+
+        .top {
+            border-top: none;
+        }
+
+        .left {
+            border-left: none;
+        }
+
+        .right {
+            border-right: none;
+        }
+
+        .bottom {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Kopie van Mondriaan</h1>
+<table>
+    <tr>
+        <td colspan=2></td>
+        <td colspan=3></td>
+        <td colspan=2 class="yellow"></td>
+    </tr>
+    <tr>
+        <td class="bottom"></td>
+        <td colspan=4 rowspan=4 class="red"></td>
+        <td colspan=2 rowspan=2 class="yellow"></td>
+    </tr>
+    <tr>
+        <td class="top"></td>
+    </tr>
+    <tr>
+        <td rowspan=3></td>
+        <td rowspan=2></td>
+        <td class="bottom"></td>
+    </tr>
+    <tr>
+        <td class="top"></td>
+    </tr>
+    <tr>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td colspan=2></td>
+        <td colspan=2></td>
+    </tr>
+    <tr>
+        <td rowspan=3 class="yellow"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td colspan=2></td>
+        <td colspan=2 rowspan=2 class="blue"></td>
+    </tr>
+    <tr>
+        <td colspan=2 rowspan=2></td>
+        <td class="black right"></td>
+        <td class="black left"></td>
+    </tr>
+    <tr>
+        <td colspan=4></td>
+    </tr>
+</table>
+</body>
+</html>
